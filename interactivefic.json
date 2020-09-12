@@ -1,0 +1,177 @@
+{
+    "passages": [
+      {
+        "text": "You are outside the house\n\n[[Go Left->Left Side of the House]]\n[[Go Right->Right Side of the House]]\n\n",
+        "links": [
+          {
+            "name": "Go Left",
+            "link": "Left Side of the House",
+            "pid": "2"
+          },
+          {
+            "name": "Go Right",
+            "link": "Right Side of the House",
+            "pid": "3"
+          }
+        ],
+        "name": "Outside the House",
+        "pid": "1",
+        "position": {
+          "x": "405",
+          "y": "172.5"
+        }
+      },
+      {
+        "text": "You are on the left side of the house.\n\n[[Go Behind->Behind the House]] \n[[Go Infront->Outside the House]] \n",
+        "links": [
+          {
+            "name": "Go Behind",
+            "link": "Behind the House",
+            "pid": "4"
+          },
+          {
+            "name": "Go Infront",
+            "link": "Outside the House",
+            "pid": "1"
+          }
+        ],
+        "name": "Left Side of the House",
+        "pid": "2",
+        "position": {
+          "x": "122",
+          "y": "412.5"
+        }
+      },
+      {
+        "text": "You are on the right side of the house.\n\n[[Go Behind->Behind the House]]\n[[Go Infront->Outside the House]]\n",
+        "links": [
+          {
+            "name": "Go Behind",
+            "link": "Behind the House",
+            "pid": "4"
+          },
+          {
+            "name": "Go Infront",
+            "link": "Outside the House",
+            "pid": "1"
+          }
+        ],
+        "name": "Right Side of the House",
+        "pid": "3",
+        "position": {
+          "x": "669",
+          "y": "403.5"
+        }
+      },
+      {
+        "text": "You are behind the house.\n\n[[Go Left->Left Side of the House]] \n[[Go Right->Right Side of the House]]\n[[Go Inside->Kitchen]]\n",
+        "links": [
+          {
+            "name": "Go Left",
+            "link": "Left Side of the House",
+            "pid": "2"
+          },
+          {
+            "name": "Go Right",
+            "link": "Right Side of the House",
+            "pid": "3"
+          },
+          {
+            "name": "Go Inside",
+            "link": "Kitchen",
+            "pid": "5"
+          }
+        ],
+        "name": "Behind the House",
+        "pid": "4",
+        "position": {
+          "x": "398",
+          "y": "722.5"
+        }
+      },
+      {
+        "text": "You are in the kitchen\n\n[[Go outside->Behind the House]] \n[[Go to Living Room->Living Room]]\n",
+        "links": [
+          {
+            "name": "Go outside",
+            "link": "Behind the House",
+            "pid": "4"
+          },
+          {
+            "name": "Go to Living Room",
+            "link": "Living Room",
+            "pid": "6"
+          }
+        ],
+        "name": "Kitchen",
+        "pid": "5",
+        "position": {
+          "x": "391",
+          "y": "486.5"
+        }
+      },
+      {
+        "text": "You are in the living room.\n\n[[Go to the Kitchen->Kitchen]] \n[[Go to the basement->Basement]]\n[[Go upstairs->Upstairs]]\n",
+        "links": [
+          {
+            "name": "Go to the Kitchen",
+            "link": "Kitchen",
+            "pid": "5"
+          },
+          {
+            "name": "Go to the basement",
+            "link": "Basement",
+            "pid": "7"
+          },
+          {
+            "name": "Go upstairs",
+            "link": "Upstairs",
+            "pid": "8"
+          }
+        ],
+        "name": "Living Room",
+        "pid": "6",
+        "position": {
+          "x": "384",
+          "y": "305.5"
+        }
+      },
+      {
+        "text": "You are in the basement.\n\n[[Go up the stairs->Living Room]] \n",
+        "links": [
+          {
+            "name": "Go up the stairs",
+            "link": "Living Room",
+            "pid": "6"
+          }
+        ],
+        "name": "Basement",
+        "pid": "7",
+        "position": {
+          "x": "271",
+          "y": "455.5"
+        }
+      },
+      {
+        "text": "You are upstairs.\n\n[[Go downstairs->Living Room]] \n",
+        "links": [
+          {
+            "name": "Go downstairs",
+            "link": "Living Room",
+            "pid": "6"
+          }
+        ],
+        "name": "Upstairs",
+        "pid": "8",
+        "position": {
+          "x": "511",
+          "y": "455.5"
+        }
+      }
+    ],
+    "name": "Interactive Fiction",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.9",
+    "ifid": "18388C72-1588-4D9C-822F-C27D2C2C3F37"
+  }
